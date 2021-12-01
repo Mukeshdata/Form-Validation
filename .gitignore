@@ -1,0 +1,428 @@
+<script>
+   $(function(){
+   $('#input_1_13').usPhoneFormat({
+    format: '(xxx) xxx-xxxx'
+   });
+	   
+   $('#input_1_14').usPhoneFormat({
+    format: '(xxx) xxx-xxxx'
+   });
+   
+   $('#input_2_91').usPhoneFormat({
+    format: '(xxx) xxx-xxxx'
+   });
+
+   /*************apply form*************/
+    $('#input_1_2_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+     $('#input_1_3_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+       $('#input_1_8_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+//           $('#input_1_4_3').on("input", function(){
+//      var regexp = /[^a-zA-Z ]/g;
+//      if($(this).val().match(regexp)){
+//        $(this).val( $(this).val().replace(regexp,'') );
+//      }
+//    }); 
+          $('#input_1_9_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+   $('#input_1_10_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   }); 
+
+   $("#input_1_15").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });      
+   
+   /**************second form*************/
+     $('#input_2_3_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });  
+   
+   // $("#input_2_90").keypress(function (e) {
+   //  if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+   //     return false;
+   //  }
+   // });
+
+     $('#input_2_12_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+   //  $("#input_2_11").keypress(function (e) {
+   //  if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+   //     return false;
+   //  }
+   // });  
+
+      $('#input_2_10_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+      $('#input_2_13_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   }); 
+
+     $('#input_2_16_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });   
+
+
+   $("#input_2_94").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+     $('#input_2_18_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   }); 
+
+   $("#input_2_95").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+    $("#input_2_96").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+     $("#input_2_97").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+       $("#input_2_98").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+       $("#input_2_99").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+   
+
+       $("#input_2_27").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });    
+    
+        $("#input_2_28").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   }); 
+
+        $("#input_2_29").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+       $("#input_2_30").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   }); 
+
+     $('#input_2_33_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+     $('#input_2_36_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+    $('#input_2_35_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+   
+    
+  
+
+     $("#input_2_101").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+    $("#input_2_102").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+     $("#input_2_103").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+      $("#input_2_104").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+
+
+      $("#input_2_53").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+      $("#input_2_54").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+      $("#input_2_55").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+       $("#input_2_56").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   }); 
+       $("#input_2_57").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   }); 
+       $("#input_2_58").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+       $("#input_2_59").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   }); 
+       $("#input_2_62").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });
+      $("#input_2_63").keypress(function (e) {
+    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+       return false;
+    }
+   });   
+	
+
+
+
+  });
+</script>
+<?php wp_footer(); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.js"></script>
+<script>
+  $('#input_2_27').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_29').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_30').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_53').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_54').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_55').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_56').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_57').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_58').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+  $('#input_2_59').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+	
+	  $('#input_2_123').inputmask("numeric", {
+    radixPoint: ".",
+    groupSeparator: ",",
+    digits: 2,
+    autoGroup: true,
+    prefix: '$', //No Space, this will truncate the first character
+    rightAlign: false,
+    oncleared: function () { self.Value(''); }
+});
+
+ 
+	
+	
+
+   $('#input_2_81_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+
+   $('#input_2_82_3').on("input", function(){
+     var regexp = /[^a-zA-Z ]/g;
+     if($(this).val().match(regexp)){
+       $(this).val( $(this).val().replace(regexp,'') );
+     }
+   });
+   
+</script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+
+	jQuery.fn.cleardefault = function() {
+	return this.focus(function() {
+		if( this.value == this.defaultValue ) {
+			this.value = "";
+		}
+	}).blur(function() {
+		if( !this.value.length ) {
+			this.value = this.defaultValue;
+		}
+	});
+};
+jQuery(".clearit input, .clearit textarea").cleardefault();
+
+});
+
+</script>
+====================================================
